@@ -1,6 +1,6 @@
-# Nome Completo do Projeto
+# Cáculo da Nota Final
 
-<descrição resumida do projeto>
+Programa para calcular a nota final de um aluno com base nas três notas trimestrais e informar sua situação no ano letivo.
 
 Este projeto foi desenvolvido de forma incremental, registrando a evolução do código em uma abordagem **orientada a objetos**.
 
@@ -14,7 +14,13 @@ Este projeto foi desenvolvido de forma incremental, registrando a evolução do 
 
 ## Enunciado do Projeto
 
-<descrição detalhada do problema resolvido no projeto>
+O programa deve ler o nome de um aluno e as três notas obtidas ao longo do ano. Cada trimestre possui um peso específico: o primeiro vale 30 pontos, enquanto o segundo e o terceiro valem 35 pontos cada.
+
+Ao final, o sistema deve:
+
+- Calcular a nota final do aluno no ano.
+- Informar se o aluno está aprovado ou reprovado.
+- Caso esteja reprovado, calcular e exibir quantos pontos faltaram para atingir a média mínima de 60 pontos.
 
 ## Estrutura do Projeto
 
