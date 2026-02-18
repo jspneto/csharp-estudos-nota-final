@@ -16,7 +16,7 @@ static class ProgramExamples
 
     public static void ExemploConstrutores()
     {
-        Console.WriteLine("Exemplo de uso de construtores");
+        Console.WriteLine("Exemplo de uso de Construtores");
 
         Console.WriteLine();
         Console.WriteLine("[Construtor Completo] — Entre com os dados do primeiro aluno:");
