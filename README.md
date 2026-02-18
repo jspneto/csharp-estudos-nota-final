@@ -43,9 +43,13 @@ Ao final, o sistema deve:
 ## Evolução do Projeto (Tags)
 
 - [**v0.1**][1] — Classe Aluno com calculo da nota final e override de ToString
+- [**v0.2**][2] — Construtores com validacao de dados no dominio
+- [**v0.3**][3] — Encapsulamento com properties e set privado nas notas
 
 ## Objetivo Educacional
 
 Este projeto **não tem como foco a solução final perfeita**, mas sim o processo de aprendizado e a comparação entre abordagens diferentes para o mesmo problema.
 
 [1]: https://github.com/jspneto/csharp-estudos-nota-final/tree/v0.1/Projeto "v0.1"
+[2]: https://github.com/jspneto/csharp-estudos-nota-final/tree/v0.2/Projeto "v0.2"
+[3]: https://github.com/jspneto/csharp-estudos-nota-final/tree/v0.3/Projeto "v0.3"
