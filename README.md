@@ -27,9 +27,14 @@ Ao final, o sistema deve:
 ```bash
 |- Projeto/
    |- Img/
+   |- Src/
+      |- IO/
+         |- AlunoInputs.cs
+      |- Aluno.cs
+   |- Program.cs
+   |- ProgramExamples.cs
    |- Projeto.csproj
    |- Projeto.sln
-   |- Program.cs
    |- README.md
 ```
 
@@ -37,8 +42,10 @@ Ao final, o sistema deve:
 
 ## Evolução do Projeto (Tags)
 
-<lista de links para as tags do projeto>
+- [**v0.1**][1] — Classe Aluno com calculo da nota final e override de ToString
 
 ## Objetivo Educacional
 
 Este projeto **não tem como foco a solução final perfeita**, mas sim o processo de aprendizado e a comparação entre abordagens diferentes para o mesmo problema.
+
+[1]: https://github.com/jspneto/csharp-estudos-nota-final/tree/v0.1/Projeto "v0.1"
