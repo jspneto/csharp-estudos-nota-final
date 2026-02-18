@@ -6,16 +6,16 @@ static class AlunoInputs
 {
     public static Aluno CriarAluno()
     {
-        Aluno a = new();
-
         Console.Write("Nome: ");
-        a.Nome = Console.ReadLine()!;
+        string nome = Console.ReadLine()!;
         Console.Write("Nota da 1ª avaliação: ");
-        a.Nota1 = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
+        double nota1 = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
         Console.Write("Nota da 2ª avaliação: ");
-        a.Nota2 = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
+        double nota2 = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
         Console.Write("Nota da 3ª avaliação: ");
-        a.Nota3 = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
+        double nota3 = double.Parse(Console.ReadLine()!, CultureInfo.InvariantCulture);
+
+        Aluno a = new(nome, nota1, nota2, nota3);
 
         return a;
     }

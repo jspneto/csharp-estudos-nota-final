@@ -4,10 +4,51 @@ namespace Projeto.Src;
 
 class Aluno
 {
-    public string Nome = "Aluno";
+    public string Nome;
     public double Nota1;
     public double Nota2;
     public double Nota3;
+
+    public Aluno(string nome, double nota1, double nota2, double nota3)
+    {
+        if (nome != null && nome != "")
+        {
+            Nome = nome;
+        }
+        else
+        {
+            Nome = "Aluno";
+        }
+
+        if (nota1 >= 0.0 && nota1 <= 30.0)
+        {
+            Nota1 = nota1;
+        }
+        else
+        {
+            Nota1 = 20.0;
+        }
+
+        if (nota2 >= 0.0 && nota2 <= 35.0)
+        {
+            Nota2 = nota2;
+        }
+        else
+        {
+            Nota2 = 20.0;
+        }
+
+        if (nota3 >= 0.0 && nota3 <= 35.0)
+        {
+            Nota3 = nota3;
+        }
+        else
+        {
+            Nota3 = 20.0;
+        }
+    }
+
+    public Aluno(string nome) : this(nome, 20.0, 20.0, 20.0) {}
 
     public double NotaFinal()
     {
