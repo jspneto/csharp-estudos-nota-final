@@ -4,20 +4,20 @@ namespace Projeto.Src;
 
 class Aluno
 {
-    public string Nome;
-    public double Nota1;
-    public double Nota2;
-    public double Nota3;
+    private string _nome;
+    public double Nota1 { get; private set; }
+    public double Nota2 { get; private set; }
+    public double Nota3 { get; private set; }
 
     public Aluno(string nome, double nota1, double nota2, double nota3)
     {
         if (nome != null && nome != "")
         {
-            Nome = nome;
+            _nome = nome;
         }
         else
         {
-            Nome = "Aluno";
+            _nome = "Aluno";
         }
 
         if (nota1 >= 0.0 && nota1 <= 30.0)
@@ -45,6 +45,22 @@ class Aluno
         else
         {
             Nota3 = 20.0;
+        }
+    }
+
+    public string Nome
+    {
+        get
+        {
+            return _nome;
+        }
+
+        set
+        {
+        if (value != null && value != "")
+            {
+                _nome = value;
+            }
         }
     }
 

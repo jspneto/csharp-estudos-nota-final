@@ -32,4 +32,21 @@ static class ProgramExamples
         Console.WriteLine();
         Console.WriteLine(a2.ToString());
     }
+
+    public static void ExemploEncapsulamento()
+    {
+        Console.WriteLine("Exemplo de uso de Encapsulamento");
+        
+        Console.WriteLine();
+        Console.WriteLine("Entre com os dados do aluno:");
+        Aluno a = AlunoInputs.CriarAluno();
+        Console.WriteLine();
+        Console.WriteLine(a.ToString());
+
+        Console.WriteLine();
+        Console.Write("Corrija o nome do aluno: ");
+        a.Nome = Console.ReadLine()!;
+        Console.WriteLine();
+        Console.WriteLine(a.ToString());
+    }
 }
