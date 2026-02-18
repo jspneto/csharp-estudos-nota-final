@@ -4,15 +4,15 @@ Programa para calcular a nota final de um aluno com base nas três notas trimest
 
 ## Detalhes Gerais
 
-- **Versão**: 0.2
-- **Conceito aplicado:** Construtores
+- **Versão**: 0.3
+- **Conceito aplicado:** Encapsulamento
 
 ## Descrição da Tag
 
-Evolucao da solucao orientada a objetos com introducao de construtores e sobrecarga.
+Evolucao da solucao orientada a objetos com encapsulamento dos atributos.
 
-A classe Aluno passa a concentrar validacoes de nome e limites das notas diretamente no construtor, garantindo consistencia do estado do objeto no momento da criacao. Foi adicionada sobrecarga permitindo criacao parcial do aluno com valores padrao. O fluxo do programa foi atualizado para demonstrar o uso dos diferentes construtores.
+A classe Aluno passa a proteger seu estado interno utilizando campo privado para o nome e Properties para expor os dados de forma controlada. As notas ficam acessiveis apenas para leitura externa, com modificacao restrita a classe via set privado, e o nome pode ser corrigido via Property com validacao. Foi adicionado um exemplo dedicado demonstrando a atualizacao segura do nome do aluno.
 
 ## Exemplo de Execução
 
-<img src="Img/Screenshot-v0.2.png" alt="Solução Problema" width="936">
+<img src="Img/Screenshot-v0.3.png" alt="Exemplo Encapsulamento" width="936">
