@@ -4,21 +4,15 @@ Programa para calcular a nota final de um aluno com base nas três notas trimest
 
 ## Detalhes Gerais
 
-- **Versão**: 0.1
-- **Conceito aplicado:** Classes
+- **Versão**: 0.2
+- **Conceito aplicado:** Construtores
 
 ## Descrição da Tag
 
-Implementacao inicial do problema utilizando orientacao a objetos.
+Evolucao da solucao orientada a objetos com introducao de construtores e sobrecarga.
 
-A classe Aluno concentra o calculo da nota final anual somando as tres avaliacoes e define a regra de aprovacao com nota minima 60. A entrada de dados foi isolada em AlunoInputs e o fluxo de execucao foi centralizado em ProgramExamples, mantendo o Program apenas como ponto de partida.
+A classe Aluno passa a concentrar validacoes de nome e limites das notas diretamente no construtor, garantindo consistencia do estado do objeto no momento da criacao. Foi adicionada sobrecarga permitindo criacao parcial do aluno com valores padrao. O fluxo do programa foi atualizado para demonstrar o uso dos diferentes construtores.
 
 ## Exemplo de Execução
 
-(aluno aprovado)
-
-<img src="Img/Screenshot-v0.1-aprovado.png" alt="Solução Problema" width="936">
-
-(aluno reprovado)
-
-<img src="Img/Screenshot-v0.1-reprovado.png" alt="Solução Problema" width="936">
+<img src="Img/Screenshot-v0.2.png" alt="Solução Problema" width="936">
