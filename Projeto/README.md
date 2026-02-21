@@ -4,15 +4,19 @@ Programa para calcular a nota final de um aluno com base nas três notas trimest
 
 ## Detalhes Gerais
 
-- **Versão**: 0.3
-- **Conceito aplicado:** Encapsulamento
+- **Versão**: 0.3.1
+- **Conceito aplicado:** Refatoração de Código
 
 ## Descrição da Tag
 
-Evolucao da solucao orientada a objetos com encapsulamento dos atributos.
-
-A classe Aluno passa a proteger seu estado interno utilizando campo privado para o nome e Properties para expor os dados de forma controlada. As notas ficam acessiveis apenas para leitura externa, com modificacao restrita a classe via set privado, e o nome pode ser corrigido via Property com validacao. Foi adicionado um exemplo dedicado demonstrando a atualizacao segura do nome do aluno.
+Refatoracao da classe Aluno com extracao do metodo ValidarNota para eliminar repeticao de codigo e garantir validacao consistente no construtor. O metodo Aprovacao passa a ser privado e o fluxo principal do programa e ajustado para executar diretamente SolucaoProblema.
 
 ## Exemplo de Execução
 
-<img src="Img/Screenshot-v0.3.png" alt="Exemplo Encapsulamento" width="936">
+(aluno aprovado)
+
+<img src="Img/Screenshot-v0.1-aprovado.png" alt="Solução Problema" width="936">
+
+(aluno reprovado)
+
+<img src="Img/Screenshot-v0.1-reprovado.png" alt="Solução Problema" width="936">
