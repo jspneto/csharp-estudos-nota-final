@@ -14,7 +14,7 @@ Este projeto foi desenvolvido de forma incremental, registrando a evolução do 
 
 ## Enunciado do Projeto
 
-O programa deve ler o nome de um aluno e as três notas obtidas ao longo do ano. Cada trimestre possui um peso específico: o primeiro vale 30 pontos, enquanto o segundo e o terceiro valem 35 pontos cada.
+O programa deve ler o nome de um aluno e as três notas obtidas ao longo do ano. Cada trimestre possui uma nota máxima específica: o primeiro vale 30 pontos, enquanto o segundo e o terceiro valem 35 pontos cada.
 
 Ao final, o sistema deve:
 
